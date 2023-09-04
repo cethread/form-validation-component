@@ -1,0 +1,29 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "open-sans", sans-serif;
+  color: rgb(41, 41, 41);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body h1 {
+  font-size: 3rem;
+}
+body a {
+  color: rgb(93, 0, 231);
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  padding: 1.2rem;
+  width: 100%;
+  border-radius: 0.5rem;
+}/*# sourceMappingURL=styles.css.map */

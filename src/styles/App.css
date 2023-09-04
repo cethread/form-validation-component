@@ -1,0 +1,108 @@
+.background-img {
+  content: url("/public/pexels-scott-webb-1029624.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+}
+
+.sign-up {
+  max-width: 60.25rem;
+  height: -moz-max-content;
+  height: max-content;
+  display: flex;
+  gap: 6rem;
+}
+.sign-up__left-col {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  flex-shrink: 1;
+  width: 50%;
+}
+.sign-up__left-col__email-counter {
+  background-image: linear-gradient(to top right, #61eefd, #cac3e5);
+  flex-shrink: 1;
+  padding: 1.5rem;
+  align-self: flex-start;
+  border-radius: 0.5rem;
+  color: black;
+}
+.sign-up__left-col__email-counter p {
+  margin: 0.5rem 0 0 0;
+}
+.sign-up__right-col {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.sign-up__right-col__btn {
+  background-color: rgb(97, 238, 253);
+}
+.sign-up__right-col__form {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 2rem;
+  gap: 1rem;
+  border-radius: 0.5rem;
+}
+.sign-up__right-col__form__input {
+  display: block;
+  margin: 0.5rem 0 0 0;
+  height: 3.5rem;
+  padding: 0 0 0 1rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  border: solid 0.05rem grey;
+}
+.sign-up__right-col__form__input::-moz-placeholder {
+  font-size: 1.1rem;
+}
+.sign-up__right-col__form__input::placeholder {
+  font-size: 1.1rem;
+}
+.sign-up__right-col__form__label {
+  font-size: 1.3rem;
+}
+.sign-up__right-col__form__form-btn {
+  color: rgb(0, 0, 0);
+  background-color: #cac3e5;
+}
+
+.error {
+  display: flex;
+  justify-content: center;
+  padding: 1.2rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  background-color: rgb(255, 236, 239);
+  border: red 0.0825rem solid;
+}
+
+.no-error {
+  display: block;
+  margin: 0.5rem 0 0 0;
+  height: 3.5rem;
+  padding: 0 0 0 1rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  border: solid 0.05rem grey;
+}
+
+.success {
+  display: block;
+  margin: 0.5rem 0 0 0;
+  height: 3.5rem;
+  padding: 0 0 0 1rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  border: solid 0.08rem rgb(25, 221, 100);
+  background-color: rgb(226, 255, 237);
+}/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,24 @@
+*, ::before, ::after {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'open-sans', sans-serif;
+    color: rgb(41, 41, 41);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    a {
+        color: rgb(93, 0, 231);
+    }
+}

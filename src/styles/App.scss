@@ -1,0 +1,112 @@
+.background-img {
+    content: url('/public/pexels-scott-webb-1029624.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    height: 100%;   
+    width: 100%;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+}
+
+.sign-up {
+    // background-color: rgb(255, 255, 255);
+    max-width: 60.25rem;
+    height: max-content;
+    display: flex;
+    gap: 6rem;
+
+    &__left-col {
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        // align-content: space-evenly;
+        flex-shrink: 1;
+        width: 50%;
+
+        &__email-counter {
+            background-image: linear-gradient(to top right, #61eefd, #cac3e5);
+            flex-shrink: 1;
+            padding: 1.5rem;
+            align-self: flex-start;
+            border-radius: 0.5rem;
+            color: black;
+
+            p {
+                margin: 0.5rem 0 0 0;
+            }
+        }
+    }
+
+    &__right-col {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+
+        &__btn {
+            background-color: rgb(97, 238, 253);
+        }
+
+        &__form {
+            display: flex;
+            flex-direction: column;
+            background-color: #ffffff;
+            padding: 2rem;
+            gap: 1rem;
+            border-radius: 0.5rem;
+
+            &__input{
+                display: block;
+                margin: 0.5rem 0 0 0 ;
+                height: 3.5rem;
+                padding: 0 0 0 1rem;
+                width: 100%;
+                border-radius: 0.5rem; 
+                border: solid 0.05rem grey;
+
+                &::placeholder {
+                    font-size: 1.1rem;
+                }
+            }
+            &__label {
+                font-size: 1.3rem
+            }
+            &__form-btn {
+                color: rgb(0, 0, 0);
+                background-color: #cac3e5;
+            }
+        }
+    }
+}
+
+.error {
+    display: flex;
+    justify-content: center;
+    padding: 1.2rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    background-color: rgb(255, 236, 239);
+    border: red 0.0825rem solid;
+} 
+.no-error {
+    display: block;
+    margin: 0.5rem 0 0 0 ;
+    height: 3.5rem;
+    padding: 0 0 0 1rem;
+    width: 100%;
+    border-radius: 0.5rem; 
+    border: solid 0.05rem grey;
+} 
+.success {
+    display: block;
+    margin: 0.5rem 0 0 0 ;
+    height: 3.5rem;
+    padding: 0 0 0 1rem;
+    width: 100%;
+    border-radius: 0.5rem; 
+    border: solid 0.08rem rgb(25, 221, 100);
+    background-color:  rgb(226, 255, 237);
+} 
