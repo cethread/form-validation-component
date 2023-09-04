@@ -28,7 +28,7 @@
         width: 50%;
 
         &__email-counter {
-            background-image: linear-gradient(to top right, #61eefd, #cac3e5);
+            background-image: linear-gradient(to top right, $color-cyan, $color-purple);
             flex-shrink: 1;
             padding: 1.5rem;
             align-self: flex-start;
@@ -47,7 +47,7 @@
         gap: 1.5rem;
 
         &__btn {
-            background-color: rgb(97, 238, 253);
+            background-color: $color-cyan;
         }
 
         &__form {

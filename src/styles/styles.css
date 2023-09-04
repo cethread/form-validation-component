@@ -19,6 +19,9 @@ body h1 {
 body a {
   color: rgb(93, 0, 231);
 }
+body button {
+  cursor: pointer;
+}
 
 .btn {
   display: flex;
@@ -26,4 +29,8 @@ body a {
   padding: 1.2rem;
   width: 100%;
   border-radius: 0.5rem;
+  border: none;
+}
+.btn:hover {
+  background-color: rgba(202, 195, 229, 0.6352941176);
 }/*# sourceMappingURL=styles.css.map */
